@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-spacy = "*"
 torchvision = "*"
 transformers = "*"
+spacy = {extras = ["en_core_web_md"], version = "*"}
 
 [dev-packages]
 

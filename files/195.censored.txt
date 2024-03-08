@@ -1,0 +1,64 @@
+Message-ID: <26778614.1075855689532.JavaMail.evans@thyme>
+Date: Tue, ██████████ 09:31:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: ina.rangel@enron.com
+Subject: Your Approval is Overdue: ██████████████ for paul.t.lucci@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: ██████████
+X-cc: 
+X-bcc: 
+X-Folder: \███████_Allen_Dec2000\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+███,
+
+ How many times do you think ████ wants to get this message.  Please help
+
+███████
+---------------------- Forwarded by ███████████████/HOU/ECT on 08/08/2000 
+04:30 PM ---------------------------
+   
+	
+	
+	From:  ████rey A Shankman                           08/08/2000 05:59 AM
+	
+
+To: ███████████████/HOU/ECT@ECT
+cc: ██████████████████████████ 
+Subject: Your Approval is Overdue: ██████████████ for paul.t.lucci@enron.com
+
+Please have ███████ or ██████ approve.  thanks.  ████
+---------------------- Forwarded by ████rey A Shankman/HOU/ECT on 08/08/2000 
+07:48 AM ---------------------------
+
+
+ARSystem@ect.enron.com on 08/07/2000 07:03:23 PM
+To: jeffrey.a.shankman@enron.com
+cc:  
+Subject: Your Approval is Overdue: ██████████████ for paul.t.lucci@enron.com
+
+
+This request has been pending your approval for ██████. Please click 
+http://itcApps.corp.enron.com/srrs/Approve/Detail.asp?ID=000000000000935&Email
+=jeffrey.a.shankman@enron.com to approve the request or contact IRM at 
+713-853-5536 if you have any issues.
+
+
+
+
+███████ ID          : 000000000000935
+███████ Create Date : 7/27/00 2:15:23 PM
+███████ed For       : paul.t.lucci@enron.com
+Resource Name       : EOL US NatGas US GAS PHY FWD FIRM Non-Texas < or = ████████
+Resource Type       : Applications
+
+
+
+
+
+
+

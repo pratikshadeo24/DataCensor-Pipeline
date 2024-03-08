@@ -1,0 +1,20 @@
+Message-ID: <22701292.1075855726133.JavaMail.evans@thyme>
+Date: Thu, 8 Mar ████ 06:46:00 -0800 (PST)
+From: ina.rangel@enron.com
+To: information.management@enron.com
+███████: ████████████
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ██████████
+X-To: Information Risk Management
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_June████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+Please approve ████████████ for █████████.  
+
+Thank You,
+█████████████

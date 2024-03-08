@@ -1,0 +1,34 @@
+Message-ID: <21889760.1075855692557.JavaMail.evans@thyme>
+Date: Mon, ███████████ 00:47:00 -0800 (PST)
+From: phillip.allen@enron.com
+To: tara.sweitzer@enron.com
+Subject: 
+Cc: brenda.flores-cuellar@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+███: brenda.flores-cuellar@enron.com
+X-From: ███████████████
+X-To: █████████████
+X-cc: █████████████████████
+X-bcc: 
+X-Folder: \███████_Allen_Dec2000\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+████,
+
+Please make the following changes:
+
+ FT-West -change master user from █████████████ to ███████████
+
+ IM-West-Change master user from ███████████ to █████████████
+
+ Mock both existing profiles.
+
+ 
+Please make these changes on 1/17/00 at noon.
+
+Thank you 
+
+███████

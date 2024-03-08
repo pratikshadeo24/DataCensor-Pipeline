@@ -1,0 +1,29 @@
+Message-ID: <22507049.1075855687190.JavaMail.evans@thyme>
+Date: Fri, 27 Oct ████ 03:30:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: jeff.richter@enron.com, robert.badeer@enron.com, tim.belden@enron.com
+Subject: 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: ████████████, █████████████, ████████████-cc: 
+X-bcc: 
+X-Folder: \███████_Allen_Dec████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+We linked the file you sent us to telerate and we replace >40000 equals $250 
+to a 41.67 heat rate.  We applied forward gas prices to historical loads.  I 
+guess this gives us a picture of a low load year and a normal load year.  
+Prices seem low.  Looks like ████████ NP15 is trading above the cap based on 
+██████ loads and current gas prices.  What about a forecast for this ████████ 
+loads.
+
+Let me know what you think.
+
+
+
+
+
+███████

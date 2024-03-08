@@ -1,0 +1,41 @@
+Message-ID: <29326578.1075855729169.JavaMail.evans@thyme>
+Date: Fri, 22 Dec ████ 01:21:00 -0800 (PST)
+From: phillip.allen@enron.com
+To: jonathan.mckay@enron.com
+Subject: 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: ██████████████
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_June2001\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+████,
+
+Here is our North of Stanfield forecast for ████
+
+
+Supply    Jan '01   Dec ███   Jan ███
+
+ Sumas   900   910   815
+ Jackson Pr.  125    33   223
+ Roosevelt  300   298   333
+ 
+ Total Supply  ████   1241   ████
+
+Demand
+ North of Chehalis 675   665   665
+ South of Chehalis 650   575   706
+
+ Total Demand  ████   1240   ████
+
+Roosevelt capacity is 495.
+
+Let me know how your forecast differs.
+
+
+█████████████████

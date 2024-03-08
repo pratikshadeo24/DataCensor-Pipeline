@@ -1,0 +1,35 @@
+Message-ID: <32183437.1075855724164.JavaMail.evans@thyme>
+Date: Wed, ███████████ 08:57:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: ned.higgins@enron.com
+Subject: Re: Unocal WAHA Storage
+Cc: mike.grigsby@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+███: mike.grigsby@enron.com
+X-From: ███████████████
+X-To: ███████████
+X-cc: ████████████
+X-bcc: 
+X-Folder: \Phillip_Allen_June2001\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+███,
+
+Regarding the ████ storage, the west desk does not have a strong need for 
+this storage but we are always willing to show a bid based on ████████████████████winter spreads and cycling value.  The following assumptions were made 
+to establish our bid:  5% █████ injection capacity, 10% █████ withdrawal 
+capacity, 1% fuel (injection only), 0.01/MMBtu variable injection and 
+withdrawal fees.  Also an undiscounted  █████████████████████ spread of $0.60 
+existed at the time of this bid.
+
+███ for a ██████ storage contract beginning ███████ based on above 
+assumptions:  $0.05/ MMBtu/Month ($0.60/Year).  Demand charges only.
+
+I am not sure if this is exactly what you need or not.  Please call or email 
+with comments.
+
+█████████████
+

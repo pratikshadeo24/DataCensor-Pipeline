@@ -1,0 +1,21 @@
+Message-ID: <15522927.1075855688706.JavaMail.evans@thyme>
+Date: Thu, ██ Aug ████ 07:36:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: rich@pira.com
+Subject: Re: Western Gas Market Report -- Draft
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: "██████████████" <rich@pira.com> @ ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Dec████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+███████,
+
+ Compare your california production to the numbers in the ████ California Gas 
+Report.  It shows 410.  But again that might be just what the two utilities 
+receive.

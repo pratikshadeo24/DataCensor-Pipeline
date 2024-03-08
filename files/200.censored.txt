@@ -1,0 +1,33 @@
+Message-ID: <2█259145.10█5855689639.JavaMail.evans@thyme>
+Date: Mon, █ Aug ████ 00:06:00 -0█00 (PDT)
+From: phillip.allen@enron.com
+To: mike.grigsby@enron.com, keith.holst@enron.com, frank.ermis@enron.com, 
+	jane.tholt@enron.com, steven.south@enron.com
+Subject: Gas fundamentals development website
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: █bit
+X-From: ███████████████
+X-To: ████████████, ███████████, ███████████, ████████████, ██████████████
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Dec████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+---------------------- Forwarded by ███████████████/HOU/ECT on 08/0█/████ 
+0█:05 AM ---------------------------
+
+
+█████ Gaskill@ENRON
+08/04/████ 03:13 PM
+To: ████████████████████████████████, ███████████████/HOU/ECT@ECT, ███████████████████████, ███████████████████████████
+cc: ████████████████/HOU/ECT@ECT 
+Subject: Gas fundamentals development website
+
+Attached is the link to the site that we reviewed in █████'s meeting.  The 
+site is a work in progress, so please forward your comments.  
+
+http://gasfundy.dev.corp.enron.com/
+
+█████

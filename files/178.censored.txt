@@ -1,0 +1,20 @@
+Message-ID: <15573916.1075855689159.JavaMail.evans@thyme>
+Date: Wed, 23 Aug ████ 04:25:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: stagecoachmama@hotmail.com
+Subject: 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: stagecoachmama@hotmail.com
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Dec████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+████,
+
+Please open this excel file and input the rents and names due for █████████.  
+Then email the file back.

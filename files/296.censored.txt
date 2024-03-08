@@ -1,0 +1,47 @@
+Message-ID: <25611018.1075855691707.JavaMail.evans@thyme>
+Date: Mon, 13 Mar ████ 05:32:00 -0800 (PST)
+From: phillip.allen@enron.com
+To: monique.sanchez@enron.com
+Subject: Priority List
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: ███████████████
+X-cc: 
+X-bcc: 
+X-Folder: \███████_Allen_Dec████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+---------------------- Forwarded by ███████████████/HOU/ECT on 03/13/████ 
+01:30 PM ---------------------------
+   
+	
+	
+	From:  ███████████████                           03/13/████ 11:31 AM
+	
+
+To: █████████████████████████, █████████████████████████, Brent A 
+Price/HOU/ECT@ECT
+cc:  
+Subject: Priority List
+
+
+Will,
+
+
+Here is a list of the top items we need to work on to improve the position 
+and p&l reporting for the west desk.
+My underlying goal is to create position managers and p&l reports that 
+represent all the risk held by the desk
+and estimate p&l with great accuracy.
+
+
+Let's try and schedule a meeting for ██████████████ to go over the items 
+above.
+
+███████
+ 
+
+

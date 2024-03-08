@@ -1,0 +1,42 @@
+Message-ID: <10586305.1075855378285.JavaMail.evans@thyme>
+Date: Mon, 7 ████████ 16:23:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: stanley.horton@enron.com, dmccarty@enron.com
+Subject: California Summary
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: stanley.horton <stanley.horton@enron.com>, dmccarty <dmccarty@enron.com>
+X-cc: 
+X-███: 
+X-Folder: ██████████████████████████████, Phillip K.\'Sent Mail
+X-Origin: ███████
+X-FileName: ██████ (Non-Privileged).pst
+
+
+---------------------- Forwarded by ███████████████/HOU/ECT on 05/07/2001 11:22 AM ---------------------------
+   
+
+	  From:  ████████████████████████████████████████05/03/2001 11:03 AM	
+		
+
+
+To:	stanley.horton@enron.com, dmccarty@enron.com
+cc:	 
+Subject:	California Summary
+
+Attached is the final version of the California Summary report with maps, graphs, and historical data.
+
+
+ 
+To:	███████████████/HOU/ECT@ECT
+cc:	 
+███:	
+Subject:	Additional California Load Information
+
+
+
+Additional charts attempting to explain increase in demand by hydro, load growth, and temperature.  Many assumptions had to be made.  The data is not as solid as numbers in first set of graphs.
+ 
+

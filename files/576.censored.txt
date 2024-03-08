@@ -1,0 +1,22 @@
+Message-ID: <1519928.1075855728840.JavaMail.evans@thyme>
+Date: Mon, ██████████ 23:36:00 -0800 (PST)
+From: phillip.allen@enron.com
+To: vladimir.gorny@enron.com
+███████: 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: ██████████████
+X-cc: 
+X-bcc: 
+X-Folder: \███████_Allen_June2001\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+We do not understand our VAR.  Can you please get us all the detailed reports 
+and component VAR reports that you can produce?
+
+The sooner the better.
+
+███████

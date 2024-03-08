@@ -1,0 +1,58 @@
+Message-ID: <28664186.1075855379389.JavaMail.evans@thyme>
+Date: Wed, 18 Apr 2001 11:11:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: keith.holst@enron.com, frank.ermis@enron.com, mike.grigsby@enron.com
+Subject: approved trader list
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: ████████████████████████████/ECT@ect>, ████████████████████████████████████>, ████████████ <████████████/HOU/ECT@ECT>
+X-cc: 
+X-bcc: 
+X-Folder: ██████████████████████████████, Phillip K.\'Sent Mail
+X-Origin: ███████
+X-FileName: ██████ (Non-Privileged).pst
+
+
+---------------------- Forwarded by ███████████████/HOU/ECT on 04/18/2001 08:10 AM ---------------------------
+To:	███████████████/HOU/ECT@ECT
+cc:	 
+Subject:	approved trader list
+
+Enron Wholesale Services (EES Gas Desk)
+
+Approved Trader List:
+
+
+
+Name				Title				Region		Basis Only
+
+Black, ███			Vice President			Any Desk
+
+Hewitt, ████			Director				All Desks
+Vanderhorst, Barry		Director				East, West	
+████████, ████			Director				West
+Des Champs, ███		Director				Central
+Reynolds, █████ 		Director				West
+
+████████, ████ 			Manager			Central
+Wiltfong, ███			Manager			All Desks
+
+Barker, ███			Sr, Specialist			East
+Fleming, █████████. Specialist			East - basis only
+Tate, █████████. Specialist			East - basis only
+Driscoll, ██████████. Specialist			East - basis only
+██████, ██████████. Specialist			Central - basis only	
+██████, Jay			Sr. Specialist			East - basis only
+Guerra, ██████████. Specialist			Central - basis only
+██████, █████████████. Specialist			East - basis only
+Smith, ██████			Sr. Specialist			East - basis only
+Boettcher, Amanda		Sr. Specialist			Central - basis only
+Pendegraft, ██████████. Specialist			East - basis only
+█████████████			Specialist			West - basis only
+████, Alain			Specialist			East - basis only
+
+██████████████████████
+████ P. Hewitt
+████████Approved ███████████████

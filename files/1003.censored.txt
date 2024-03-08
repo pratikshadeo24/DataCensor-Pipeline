@@ -1,0 +1,29 @@
+Message-ID: <16254169.1075863688286.JavaMail.evans@thyme>
+Date: Tue, 22 Aug ████ 07:44:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: david.l.johnson@enron.com, john.shafer@enron.com
+Subject: 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: david.l.johnson@enron.com, ███████████
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Dec████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+Please cc the following distribution list with updates:
+
+█████████████ (pallen@enron.com)
+████████████ (mike.grigsby@enron.com)
+███████████ (kholst@enron.com)
+███████████████
+███████████
+█████████████
+
+
+Thank you for your help
+
+█████████████

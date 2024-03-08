@@ -1,0 +1,49 @@
+Message-ID: <32005218.1075855690438.JavaMail.evans@thyme>
+Date: Tue, ███████████ 05:33:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: kenneth.shulklapper@enron.com
+Subject: gas storage model
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: █████████████████████-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Dec2000\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+---------------------- Forwarded by ███████████████/HOU/ECT on 06/27/2000 
+12:32 PM ---------------------------
+
+
+████████
+06/14/2000 07:09 AM
+To: ███████████/HOU/ECT@ECT
+cc: ██████████████████████████, ████████████████████████████, ███████ 
+Sullivan/HOU/ECT@ECT, ████████████████/HOU/ECT@ECT, ███████████Allen/HOU/ECT@ECT, ██████ A Martin/HOU/ECT@ECT, █████████████████████████, 
+███████████████████████████████: gas storage model
+
+
+████,
+
+We are currently back-testing the storage model. 
+The enclosed version contains deltas and decision 
+variable. 
+
+You mentioned that you have resources to run the model. Please do so.
+This will help us to gain experience with the market vs the
+model.
+
+I am going to distribute an article by Caminus, an software vendor.
+The article illustrates the optionality associated with storage operation
+very well.  The Enron Research storage model  is a lot like that, although 
+implementation may be
+different.  
+
+Let me know if you have any questions.
+
+Zimin
+
+
+

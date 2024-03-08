@@ -1,0 +1,82 @@
+Message-ID: <4296279.1075855725567.JavaMail.evans@thyme>
+Date: Mon, 26 Mar ████ 02:03:00 -0800 (PST)
+From: phillip.allen@enron.com
+To: keith.holst@enron.com, mike.grigsby@enron.com, frank.ermis@enron.com
+Subject: Current Gas Desk List
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: ███████████, ████████████, █████████████-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_June████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+---------------------- Forwarded by ███████████████/HOU/ECT on 03/26/████ 
+10:03 AM ---------------------------
+To: ███████████████/HOU/ECT@ECT
+cc:  
+Subject: Current Gas Desk List
+
+Hope this helps!  This is the current gas desk list that I have in my 
+personal address book.  Call me with any questions.
+
+█████
+GROUP: East Desk
+
+
+Basics:	
+Group name:	East Desk
+Group type:	Multi-purpose
+Description:	
+Members:	█████████████████████████
+██████████████████████
+Barend VanderHorst/HOU/EES
+██████████████████
+Paul Tate/HOU/EES
+Alain Diza/HOU/EES
+████████████████████
+████████████████████████
+█████████████████████████
+Marde L Driscoll/HOU/EES
+██████████████████████
+████████████████████████
+███████████████████
+██████████████████████
+
+
+Owners:	█████ Dupre/HOU/EES
+Administrators:	█████ Dupre/HOU/EES
+Foreign directory sync allowed:	Yes
+
+
+GROUP: West Desk
+
+
+Basics:	
+Group name:	West Desk
+Group type:	Multi-purpose
+Description:	
+Members:	████████████████████
+██████████████████████
+Laura R Arnold/HOU/EES
+Amanda Boettcher/HOU/EES
+C Kyle Griffin/HOU/EES
+███████████████████
+Artemio Muniz/HOU/EES
+████████████████████
+█████████████████████████
+Roland Aguilar/HOU/EES
+█████████████████████
+██████████████████████
+██████████████████████
+█████████████████████████
+█████████████████████████
+
+
+Owners:	█████ Dupre/HOU/EES
+Administrators:	█████ Dupre/HOU/EES
+Foreign directory sync allowed:	Yes
+
+

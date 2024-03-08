@@ -1,0 +1,22 @@
+Message-ID: <26241198.1075855689180.JavaMail.evans@thyme>
+Date: Tue, ██ Aug ████ 08:██:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: stagecoachmama@hotmail.com
+Subject: 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: stagecoachmama@hotmail.com
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Dec████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+Open the "utility" spreadsheet and try to complete the analysis of whether it 
+is better to be a small commercial or a medium commercial (LP-1).
+You will need to get the usage for that meter for ██████████████████.  If we 
+have ████████ of data, we can tell which will be cheaper.  Use the rates 
+described in the spreadsheet.  This is a great chance for you to practice 
+excel.

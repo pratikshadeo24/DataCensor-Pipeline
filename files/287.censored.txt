@@ -1,0 +1,22 @@
+Message-ID: <25048691.1075855691514.JavaMail.evans@thyme>
+Date: Wed, 22 Mar ████ 00:36:00 -0800 (PST)
+From: phillip.allen@enron.com
+To: brian.hoskins@enron.com
+Subject: 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: █████████████
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Dec████\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+http://ectpdx-sunone/~ctatham/navsetup/index.htm
+
+id   pallen
+pw  westgasx
+
+highly sensitive do not distribute

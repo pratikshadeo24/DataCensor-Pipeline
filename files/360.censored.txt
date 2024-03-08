@@ -1,0 +1,118 @@
+Message-ID: <1090527.1075855723944.JavaMail.evans@thyme>
+Date: Tue, ██████████ 07:14:00 -0700 (PDT)
+From: phillip.allen@enron.com
+To: ina.rangel@enron.com
+Subject: 4-URGENT - OWA Please print this now.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ███████████████
+X-To: ██████████
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_June2001\Notes Folders\'sent mail
+X-Origin: ███████
+X-FileName: pallen.nsf
+
+---------------------- Forwarded by ███████████████/HOU/ECT on 05/01/2001 
+02:14 PM ---------------------------
+
+
+█████████████████ Team@ENRON
+04/27/2001 01:01 PM
+To: ██████████████/NA/Enron@ENRON, ████████████/Enron@ENRON, ███████ 
+Bangerter/NA/Enron@Enron, Brian Ellis/Corp/Enron@Enron, █████████████████/HR/Corp/Enron@ENRON, Chris P Wood/NA/Enron@Enron, ███████████████████████, ███████████████████████████, ██████████NA/Enron@ENRON, 
+█████████████/NA/Enron@Enron, ██████████████████/HR/Corp/Enron@ENRON, ████████Morrison/Corp/Enron@ENRON, Joe Dorn/Corp/Enron@ENRON, █████████████████████████████████████, █████████████/NA/Enron@ENRON, ███████ 
+Barrios/Corp/Enron@ENRON, ████████████/HR/Corp/Enron@ENRON, Raj 
+Perubhatla/Corp/Enron@Enron, ███████████████████NA/Enron@Enron, Andrea 
+Yowman/Corp/Enron@ENRON, █████████████/HR/Corp/Enron@ENRON, █████████████████/HR/Corp/Enron@ENRON, █████████████/NA/Enron@ENRON, ██████ 
+Matson/Corp/Enron@ENRON, ███████████████████/HR/Corp/Enron@ENRON, █████████████/HR/Corp/Enron@ENRON, ████████████████/HR/Corp/Enron@ENRON, ███████████Hope/HOU/ECT@ECT, ███████████████/HR/Corp/Enron@ENRON, ████████████/HR/Corp/Enron@ENRON, ██████████/HR/Corp/Enron@Enron, ████████████████████████████████, ███████████/HR/Corp/Enron@ENRON, Kristi 
+Monson/NA/Enron@Enron, █████████████/HR/Corp/Enron@ENRON, █████████████/HR/Corp/Enron@ENRON, ██████████████████████████████, ████████████████/Enron@ENRON, ██████████████/Enron@ENRON, ██████████████████████████████████████████████████████████████████████, ████████████████████████████, ██████████████/Enron@ENRON, █████████████████/Enron@ENRON, ████████████████/Enron@ENRON, ███████████████████/Enron@ENRON, ██████████████/Enron@ENRON, ██████████████████/Enron@ENRON, Ramon Pizarro/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, 
+██████████████/Enron@ENRON, █████████████████/Enron@ENRON, ██████ 
+Richardson/NA/Enron@ENRON, █████████████████/NA/Enron@ENRON, ████████████████████████████, Delaney Trimble/NA/Enron@ENRON, ████████████/NA/Enron@ENRON, ████████████/HR/Corp/Enron@ENRON, █████████████/HR/Corp/Enron@ENRON, ███████████████NA/Enron@Enron, ████████████/HR/Corp/Enron@Enron, ██████████████/HR/Corp/Enron@Enron, ████████████/HR/Corp/Enron@ENRON, ███████████Houston/Eott@Eott, ███████████████████████████, ███████████████/HR/Corp/Enron@ENRON, Lance 
+Stanley/HR/Corp/Enron@ENRON, ███████████████████████, ██████ 
+Tholt/HOU/ECT@ECT, █████████████████████████, ███████████████/ECT@ect, 
+███████████████████████████, █████████████HOU/ECT@ECT, ███████ 
+Sanchez/HOU/ECT@ECT, ███████████████/HOU/ECT@ECT, Randall L Gay/HOU/ECT@ECT, 
+Tori Kuykendall/HOU/ECT@ECT, █████████████████████████████, ████████████████████████████████, █████████████████████████████████, ███████████████████████████, █████████████████████████, █████████Calcagno/NA/Enron@Enron, ███████████████████████████████, ███████ 
+Franklin/Corp/Enron@ENRON, ████████████████████████████, █████████████████/EES@EES, █████ Casas/HOU/ECT@ECT, █████████████████████████████, 
+████████████/NA/Enron@ENRON, Meredith Homco/HOU/ECT@ECT, ███████████████████████████, ████████████/NA/Enron@ENRON, ██████████████████████████████████, ████████████████████████████████, Tamara 
+Carter/NA/Enron@ENRON, Tracy Wood/NA/Enron@ENRON, █████████████/Enron 
+Communications@Enron Communications, █████████████████████████████████████████████████████, █████████████████████████, ███████████████████████████████, 
+████████████████████████, ███████████████████/MGUSA@MGUSA, ████████████████████████████, ████████████████/MGUSA@MGUSA, ████████████████████/MGUSA@MGUSA, ██████████████/MGUSA@MGUSA
+cc:  
+Subject: 4-URGENT - OWA Please print this now.
+
+
+Current Notes User:
+
+REASONS FOR USING OUTLOOK WEB ACCESS (OWA)
+
+1. Once your mailbox has been migrated from Notes to ███████, the ███████ 
+client will be configured on your computer.
+After migration of your mailbox, you will not be able to send or recieve mail 
+via Notes, and you will not be able to start using ███████ until it is 
+configured by the █████████████████ team the morning after your mailbox is 
+migrated.  During this period, you can use ███████ Web Access (OWA) via your 
+web browser (Internet Explorer 5.0) to read and send mail.
+
+PLEASE NOTE:  Your calendar entries, personal address book, journals, and 
+To-Do entries imported from Notes will not be available until the ███████ 
+client is configured on your desktop.
+
+2. Remote access to your mailbox.
+After your ███████ client is configured, you can use ███████ Web Access (OWA) 
+for remote access to your mailbox.
+
+PLEASE NOTE:  At this time, the OWA client is only accessible while 
+connecting to the Enron network (LAN).  There are future plans to make OWA 
+available from your home or when traveling abroad.
+
+HOW TO ACCESS OUTLOOK WEB ACCESS (OWA)
+
+Launch Internet Explorer 5.0, and in the address window type:  
+http://nahou-msowa01p/exchange/john.doe
+
+Substitute "john.doe" with your first and last name, then click ENTER.  You 
+will be prompted with a sign in box as shown below.  Type in "corp/your user 
+id" for the user name and your NT password to logon to OWA and click OK.  You 
+will now be able to view your mailbox.
+
+ 
+
+PLEASE NOTE:  There are some subtle differences in the functionality between 
+the ███████ and OWA clients.  You will not be able to do many of the things 
+in OWA that you can do in ███████.  Below is a brief list of *some* of the 
+functions NOT available via OWA:
+
+Features NOT available using OWA:
+
+-  Tasks
+-  Journal
+-  █████████████
+-  ███████████
+-  ██████████████████
+-  Reminders
+-  Timed Delivery
+-  Expiration
+-  ███████ Rules
+-  Voting, Message Flags and Message Recall
+-  Sharing Contacts with others
+-  Task Delegation
+-  Direct Resource Booking
+-  Personal Distribution Lists
+
+QUESTIONS OR CONCERNS?
+
+If you have questions or concerns using the OWA client, please contact the 
+███████ 2000 question and answer Mailbox at:
+
+ ███████.2000@enron.com
+
+Otherwise, you may contact the Resolution Center at:
+
+ 713-853-1411
+
+Thank you,
+
+███████ 2000 Migration Team

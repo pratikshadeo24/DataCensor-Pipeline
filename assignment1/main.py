@@ -6,7 +6,7 @@ from transformers import pipeline
 
 
 # Load SpaCy model
-nlp_spacy = spacy.load("en_core_web_sm")
+nlp_spacy = spacy.load("en_core_web_md")
 # Load Hugging face model
 tokenizer = AutoTokenizer.from_pretrained("dslim/bert-base-NER")
 model = AutoModelForTokenClassification.from_pretrained("dslim/bert-base-NER")

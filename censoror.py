@@ -49,7 +49,11 @@ def main(input_pattern, output_dir, entities_to_censor, stats_output):
     for file_path in files_to_censor:
         # Read the file
         print("Current file: ", Path(file_path))
-        text = Path(file_path).read_text(encoding='utf-8')
+        try:
+            text = Path(file_path).read_text(encoding='utf-8')
+        except Exception as e:
+            print(f"Error reading file {file_path}: {e}")
+            continue
         stats = {}
 
         # Censor the text

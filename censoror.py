@@ -4,6 +4,7 @@ from glob import glob
 import sys
 from assignment1.main import write_censored_file, censor_regex, censor_hf, censor_spacy
 
+
 def output_stats(stats, stats_output, censored_file_path):
     # Construct stats message
     stats_message = f"File: {censored_file_path}\n"
@@ -21,6 +22,7 @@ def output_stats(stats, stats_output, censored_file_path):
                 file.write(stats_message + '\n')
         except IOError as e:
             print(f"An error occurred while writing to the file: {e}")
+
 
 def parse_arguments():
     # Initialize the argument parser

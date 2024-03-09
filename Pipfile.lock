@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d800f75197d51a1bfa256690f78c903db5730fdd232a68b2e5f0b5f64ffee8f5"
+            "sha256": "22f2eae10ca87915adec56da87a7f7f86dd97b97d175bb2d7ce5a87edca767d1"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -237,6 +237,9 @@
             ],
             "version": "==2.0.8"
         },
+        "en-core-web-md": {
+            "file": "https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl"
+        },
         "filelock": {
             "hashes": [
                 "sha256:521f5f56c50f8426f5e03ad3b281b490a87ef15bc6c526f168290f0c7148d44e",
@@ -268,6 +271,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==3.6"
+        },
+        "iniconfig": {
+            "hashes": [
+                "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3",
+                "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.0.0"
         },
         "jinja2": {
             "hashes": [
@@ -447,100 +458,6 @@
             "markers": "python_version >= '3.9'",
             "version": "==1.26.4"
         },
-        "nvidia-cublas-cu12": {
-            "hashes": [
-                "sha256:2b964d60e8cf11b5e1073d179d85fa340c120e99b3067558f3cf98dd69d02906",
-                "sha256:ee53ccca76a6fc08fb9701aa95b6ceb242cdaab118c3bb152af4e579af792728"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==12.1.3.1"
-        },
-        "nvidia-cuda-cupti-cu12": {
-            "hashes": [
-                "sha256:bea8236d13a0ac7190bd2919c3e8e6ce1e402104276e6f9694479e48bb0eb2a4",
-                "sha256:e54fde3983165c624cb79254ae9818a456eb6e87a7fd4d56a2352c24ee542d7e"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==12.1.105"
-        },
-        "nvidia-cuda-nvrtc-cu12": {
-            "hashes": [
-                "sha256:0a98a522d9ff138b96c010a65e145dc1b4850e9ecb75a0172371793752fd46ed",
-                "sha256:339b385f50c309763ca65456ec75e17bbefcbbf2893f462cb8b90584cd27a1c2"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==12.1.105"
-        },
-        "nvidia-cuda-runtime-cu12": {
-            "hashes": [
-                "sha256:6e258468ddf5796e25f1dc591a31029fa317d97a0a94ed93468fc86301d61e40",
-                "sha256:dfb46ef84d73fababab44cf03e3b83f80700d27ca300e537f85f636fac474344"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==12.1.105"
-        },
-        "nvidia-cudnn-cu12": {
-            "hashes": [
-                "sha256:5ccb288774fdfb07a7e7025ffec286971c06d8d7b4fb162525334616d7629ff9"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==8.9.2.26"
-        },
-        "nvidia-cufft-cu12": {
-            "hashes": [
-                "sha256:794e3948a1aa71fd817c3775866943936774d1c14e7628c74f6f7417224cdf56",
-                "sha256:d9ac353f78ff89951da4af698f80870b1534ed69993f10a4cf1d96f21357e253"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==11.0.2.54"
-        },
-        "nvidia-curand-cu12": {
-            "hashes": [
-                "sha256:75b6b0c574c0037839121317e17fd01f8a69fd2ef8e25853d826fec30bdba74a",
-                "sha256:9d264c5036dde4e64f1de8c50ae753237c12e0b1348738169cd0f8a536c0e1e0"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==10.3.2.106"
-        },
-        "nvidia-cusolver-cu12": {
-            "hashes": [
-                "sha256:74e0c3a24c78612192a74fcd90dd117f1cf21dea4822e66d89e8ea80e3cd2da5",
-                "sha256:8a7ec542f0412294b15072fa7dab71d31334014a69f953004ea7a118206fe0dd"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==11.4.5.107"
-        },
-        "nvidia-cusparse-cu12": {
-            "hashes": [
-                "sha256:b798237e81b9719373e8fae8d4f091b70a0cf09d9d85c95a557e11df2d8e9a5a",
-                "sha256:f3b50f42cf363f86ab21f720998517a659a48131e8d538dc02f8768237bd884c"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==12.1.0.106"
-        },
-        "nvidia-nccl-cu12": {
-            "hashes": [
-                "sha256:a9734707a2c96443331c1e48c717024aa6678a0e2a4cb66b2c364d18cee6b48d"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==2.19.3"
-        },
-        "nvidia-nvjitlink-cu12": {
-            "hashes": [
-                "sha256:991905ffa2144cb603d8ca7962d75c35334ae82bf92820b6ba78157277da1ad2",
-                "sha256:c6428836d20fe7e327191c175791d38570e10762edc588fb46749217cd444c74"
-            ],
-            "markers": "python_version >= '3'",
-            "version": "==12.4.99"
-        },
-        "nvidia-nvtx-cu12": {
-            "hashes": [
-                "sha256:65f4d98982b31b60026e0e6de73fbdfc09d08a96f4656dd3665ca616a11e1e82",
-                "sha256:dc21cf308ca5691e7c04d962e213f8a4aa9bbfa23d95412f452254c2caeb09e5"
-            ],
-            "markers": "platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==12.1.105"
-        },
         "packaging": {
             "hashes": [
                 "sha256:048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5",
@@ -622,6 +539,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==10.2.0"
+        },
+        "pluggy": {
+            "hashes": [
+                "sha256:7db9f7b503d67d1c5b95f59773ebb58a8c1c288129a88665838012cfb07b8981",
+                "sha256:8c85c2876142a764e5b7548e7d9a0e0ddb46f5185161049a79b7e974454223be"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==1.4.0"
         },
         "preshed": {
             "hashes": [
@@ -754,6 +679,24 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==2.16.3"
+        },
+        "pytest": {
+            "hashes": [
+                "sha256:d4051d623a2e0b7e51960ba963193b09ce6daeb9759a451844a21e4ddedfc1bd",
+                "sha256:edfaaef32ce5172d5466b5127b42e0d6d35ebbe4453f0e3505d96afd93f6b096"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==8.0.2"
+        },
+        "pytest-mock": {
+            "hashes": [
+                "sha256:0972719a7263072da3a21c7f4773069bcc7486027d7e8e1f81d98a47e701bc4f",
+                "sha256:31a40f038c22cad32287bb43932054451ff5583ff094bca6f675df2f8bc1a6e9"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==3.11.0"
         },
         "pyyaml": {
             "hashes": [
@@ -909,7 +852,7 @@
                 "sha256:ff100b203092af77d1a5a7abe085b3506b7eaaf9abf65b73b7d6905b6cb76988"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==2023.12.25"
+            "version": "==2023.11.25"
         },
         "requests": {
             "hashes": [
@@ -1052,9 +995,6 @@
             "version": "==6.4.0"
         },
         "spacy": {
-            "extras": [
-                "en_core_web_md"
-            ],
             "hashes": [
                 "sha256:023c9a008328f55c4717c56c4f8a28073b9961547f7d38a9405c967a52e66d59",
                 "sha256:040f7df5096c817450820eaaa426d54ed266254d16974e9a707a32f5b0f139ae",
@@ -1087,6 +1027,7 @@
                 "sha256:f07477a4027711c22b3865e78dc9076335c03fcf318a6736159bf07e2a923125",
                 "sha256:f5b930753027ac599f70bb7e77d6a2256191fe582e6f3f0cd624d88f6c279fa4"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.7'",
             "version": "==3.7.4"
         },
@@ -1389,18 +1330,6 @@
             "index": "pypi",
             "markers": "python_full_version >= '3.8.0'",
             "version": "==4.38.2"
-        },
-        "triton": {
-            "hashes": [
-                "sha256:0af58716e721460a61886668b205963dc4d1e4ac20508cc3f623aef0d70283d5",
-                "sha256:227cc6f357c5efcb357f3867ac2a8e7ecea2298cd4606a8ba1e931d1d5a947df",
-                "sha256:a2294514340cfe4e8f4f9e5c66c702744c4a117d25e618bd08469d0bfed1e2e5",
-                "sha256:b8ce26093e539d727e7cf6f6f0d932b1ab0574dc02567e684377630d86723ace",
-                "sha256:da58a152bddb62cafa9a857dd2bc1f886dbf9f9c90a2b5da82157cd2b34392b0",
-                "sha256:e8fe46d3ab94a8103e291bd44c741cc294b91d1d81c1a2888254cbf7ff846dab"
-            ],
-            "markers": "python_version < '3.12' and platform_system == 'Linux' and platform_machine == 'x86_64'",
-            "version": "==2.2.0"
         },
         "typer": {
             "hashes": [

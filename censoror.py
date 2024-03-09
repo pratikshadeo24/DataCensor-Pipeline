@@ -4,6 +4,23 @@ from glob import glob
 import sys
 from assignment1.main import write_censored_file, censor_regex, censor_hf, censor_spacy
 
+def output_stats(stats, stats_output, censored_file_path):
+    # Construct stats message
+    stats_message = f"File: {censored_file_path}\n"
+    for entity, count in stats.items():
+        stats_message += f"{entity}: {count} occurrences\n"
+
+    # Determine the output destination
+    if stats_output == 'stderr':
+        print(stats_message, file=sys.stderr)
+    elif stats_output == 'stdout':
+        print(stats_message, file=sys.stdout)
+    else:  # Output to a file
+        try:
+            with open(stats_output, 'w') as file:
+                file.write(stats_message + '\n')
+        except IOError as e:
+            print(f"An error occurred while writing to the file: {e}")
 
 def parse_arguments():
     # Initialize the argument parser
@@ -16,7 +33,7 @@ def parse_arguments():
     parser.add_argument('--phones', action='store_true', help='Flag to censor phone numbers.')
     parser.add_argument('--address', action='store_true', help='Flag to censor addresses.')
     parser.add_argument('--output', type=str, required=True, help='Directory to store the censored files.')
-    parser.add_argument('--stats', type=str, choices=['stderr', 'stdout'], help='Where to output the stats.')
+    parser.add_argument('--stats', type=str, help='File or stream to output the stats. Use "stderr" or "stdout" for console output or provide a file path to write to a file.')
 
     # Parse the command-line arguments
     return parser.parse_args()
@@ -31,10 +48,11 @@ def main(input_pattern, output_dir, entities_to_censor, stats_output):
         # Read the file
         print("Current file: ", Path(file_path))
         text = Path(file_path).read_text(encoding='utf-8')
+        stats = {}
 
         # Censor the text
-        censored_text = censor_spacy(text, entities_to_censor)
-        censored_text = censor_hf(censored_text, entities_to_censor)
+        censored_text = censor_spacy(text, entities_to_censor, stats)
+        censored_text = censor_hf(censored_text, entities_to_censor, stats)
         censored_text = censor_regex(censored_text, entities_to_censor)
         # Determine the output file path
         # censored_file_path = Path(output_dir) / (Path(file_path).stem + '.censored.txt')
@@ -42,11 +60,7 @@ def main(input_pattern, output_dir, entities_to_censor, stats_output):
         # Write the censored text to the output file
         write_censored_file(censored_text, censored_file_path)
 
-        # Output the stats if required
-        if stats_output == 'stderr':
-            print(f"Censored entities in {file_path}", file=sys.stderr)
-        elif stats_output == 'stdout':
-            print(f"Censored entities in {file_path}", file=sys.stdout)
+        output_stats(stats, stats_output, censored_file_path)
 
 
 if __name__ == "__main__":
@@ -67,7 +81,7 @@ if __name__ == "__main__":
         # Note: Implement custom logic for address recognition
         CENSOR_ENTITIES.append('ADDRESS')
         CENSOR_ENTITIES.extend(['B-LOC', 'I-LOC'])
-        # CENSOR_ENTITIES.extend(['GPE', 'ORG', 'FAC', 'LOC'])
+        CENSOR_ENTITIES.extend(['GPE', 'FAC', 'LOC'])
 
     # Process the files with the specified censorship criteria
     main(args.input, args.output, CENSOR_ENTITIES, args.stats)

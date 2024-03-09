@@ -57,8 +57,8 @@ def main(input_pattern, output_dir, entities_to_censor, stats_output):
         censored_text = censor_hf(censored_text, entities_to_censor, stats)
         censored_text = censor_regex(censored_text, entities_to_censor)
         # Determine the output file path
-        # censored_file_path = Path(output_dir) / (Path(file_path).stem + '.censored.txt')
-        censored_file_path = f"{output_dir}{Path(file_path).stem}.censored"
+        censored_file_path = Path(output_dir) / (Path(file_path).stem + '.censored')
+        # censored_file_path = f"{output_dir}{Path(file_path).stem}.censored"
         # Write the censored text to the output file
         write_censored_file(censored_text, censored_file_path)
 

@@ -5,7 +5,7 @@
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.11"
+            "python_version": "3.12"
         },
         "sources": [
             {
@@ -696,7 +696,7 @@
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==3.11.0"
+            "version": "==3.12.0"
         },
         "pyyaml": {
             "hashes": [
@@ -852,7 +852,7 @@
                 "sha256:ff100b203092af77d1a5a7abe085b3506b7eaaf9abf65b73b7d6905b6cb76988"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==2023.11.25"
+            "version": "==2023.12.25"
         },
         "requests": {
             "hashes": [

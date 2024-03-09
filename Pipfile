@@ -14,4 +14,4 @@ en-core-web-md = {file = "https://github.com/explosion/spacy-models/releases/dow
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.12"

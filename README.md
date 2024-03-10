@@ -40,7 +40,7 @@ $  pipenv run python -m pytest
 ```
 
 ## Demo
-[DE_Compressed_video.mov](..%2F..%2FDE_Compressed_video.mov)
+https://github.com/pratikshadeo24/cis6930sp24-assignment1/assets/30438714/be96e223-7659-442b-96d3-6f8efc1f9ab6
 
 ## Function Description
 

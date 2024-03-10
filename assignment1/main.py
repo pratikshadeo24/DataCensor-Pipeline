@@ -120,6 +120,5 @@ def censor_with_regex(text, entities_to_censor):
 def write_censored_file(censored_text, output_file_path):
     # Write the censored text to a new file
     with open(output_file_path, 'w', encoding='utf-8') as file:
-        print("aaaa: ", output_file_path)
         file.write(censored_text)
 

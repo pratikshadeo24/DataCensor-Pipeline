@@ -3,7 +3,7 @@
 #### Name: Pratiksha Deodhar
 
 ## Description
-The objective of this project is to design and implement a data pipeline that is proficient in detecting and censoring sensitive information within the Enron email dataset. This entails developing a system that can meticulously iterate through all email files identified by a specified glob pattern. Upon identification, the system applies its censorship logic to redact sensitive content found within each email. Following the redaction process, the pipeline is responsible for securely storing these censored emails in a designated folder. This ensures not only the secure handling of sensitive data but also organizes the output in a manner that facilitates easy archiving and accessibility for subsequent review or utilization.
+<p align="justify"> The objective of this project is to design and implement a data pipeline that is proficient in detecting and censoring sensitive information within the Enron email dataset. This entails developing a system that can meticulously iterate through all email files identified by a specified glob pattern. Upon identification, the system applies its censorship logic to redact sensitive content found within each email. Following the redaction process, the pipeline is responsible for securely storing these censored emails in a designated folder. This ensures not only the secure handling of sensitive data but also organizes the output in a manner that facilitates easy archiving and accessibility for subsequent review or utilization. </p>
 
 ## How to Install
 ### 1. Download pyenv:
@@ -21,24 +21,31 @@ $ pyenv global 3.11
 
 ### 4. Install required libraries
 ```commandline
-$ pipenv install pypdf 
-$ pipenv install sqlite3
+$ pipenv install spacy 
+$ pipenv install torchvision
+$ pipenv install transformers
+$ pipenv install $(spacy info en_core_web_md --url)
 $ pipenv install pytest
 $ pipenv install pytest-mock
 ```
 
-## How to Run
+## How to Run code
 ```commandline
-$ pipenv run python censoror.py --input <input_file_path> --names --dates --phones --address --output <output_file_path> --stats stderr
+$ pipenv run python censoror.py --input <input_file_path> --names --dates --phones --address --output <output_file_path> --stats <stderr or stdout or specific file path>
+```
+
+## How to Run Pytest
+```commandline
+$  pipenv run python -m pytest
 ```
 
 ## Demo
 [DE_Compressed_video.mov](..%2F..%2FDE_Compressed_video.mov)
 
-## Code Description
+## Function Description
 
 ### main
-This function orchestrates the censorship process on a collection of text files, targeting specified types of sensitive information. It accepts four arguments. The function processes each matched file by censoring the designated information and saving the redacted content to the output directory. The function does not return a value but produces censored files and optionally outputs statistics regarding the redaction 
+<p align="justify"> This function orchestrates the censorship process on a collection of text files, targeting specified types of sensitive information. It accepts four arguments. The function processes each matched file by applying different models in sequence - space, hugging face and then regex  and saving the redacted content to the output directory. The function does not return a value but produces censored files and optionally outputs statistics regarding the redaction. </p>
 
 Function arguments:
 - input_pattern (string): Glob pattern to identify input files.
@@ -46,91 +53,148 @@ Function arguments:
 - entities_to_censor (list): List of entity types to redact.
 - stats_output : Channel to output processing statistics.
 
-Return value: None. (Redacted text files saved in the specified output directory and optional stats displayed in the chosen output channel)
+ <p align="justify"> Return value: None. (Redacted text files saved in the specified output directory and optional stats displayed in the chosen output channel). </p>
 
-### censor_spacy
-This function is responsible for identifying and censoring specific entities in a given text using the SpaCy NLP library. The function processes the text with SpaCy, identifies entities matching those listed in entities_to_censor, and replaces them with a series of black block characters ('█') equal in length to the entity being censored. It then returns the modified text with these entities redacted, maintaining the original text structure and content, minus the sensitive information.
+### censor_with_spacy
+<p align="justify"> This function is responsible for identifying and censoring specific entities in a given text using the SpaCy NLP library. The function processes the text with SpaCy, identifies entities matching those listed in entities_to_censor, and replaces them with a series of black block characters ('█') equal in length to the entity being censored. It then returns the modified text with these entities redacted, maintaining the original text structure and content, minus the sensitive information. </p>
 
 Function arguments: 
 - text (string) : the input text to be processed 
-- entities_to_censor (list) : a list of entity types designated for redaction
+- entities_to_censor (list) : a list specifying which entity types should be redacted
+- stats (dictionary) : dictionary containing collected stats
 
 Return value: 
 - censored_text (string) : modified text with these entities redacted
 
-### censor_hf
-The censor_hf function is designed to detect and redact specific types of entities within a text, leveraging a model from the Hugging Face Transformers library. The function first processes the text using a named entity recognition pipeline from Hugging Face to identify pertinent entities. Then, it iteratively replaces each identified entity that matches the types listed in entities_to_censor with a series of black block characters ('█'), ensuring the length of the replacement matches the original entity length.
+### censor_with_hf
+<p align="justify"> The censor_hf function is designed to detect and redact specific types of entities within a text, leveraging a model from the Hugging Face Transformers library. The function first processes the text using a named entity recognition pipeline from Hugging Face to identify pertinent entities. Then, it iteratively replaces each identified entity that matches the types listed in entities_to_censor with a series of black block characters ('█'), ensuring the length of the replacement matches the original entity length. </p>
 
 Function arguments: 
-- text (string) : string content to be processed.
-- entities_to_censor (list) : a list specifying which entity types should be obscured
+- text (string) : text to be processed.
+- entities_to_censor (list) : a list specifying which entity types should be redacted
+- stats (dictionary) : dictionary containing collected stats
 
 Return value: 
 - censored_text (string) : censored version of the text, where all specified entities have been effectively masked
 
-### extract_incidents
-This function is designed to process binary data of a PDF document, extract text content from each page, and then 
-compile the text into a structured format, presumably a list of incidents.
-- Function arguments: incident data from `fetch_incidents` function
-- Return value: list of incidents
 
-### extract_page_text
-This function is designed to extract text in the form of list of strings where each string represents a line of text 
-extracted from the current page, with special considerations for the first and last pages of the document.
-- Function arguments: 
-  - page (PageObject)
-  - page_num (int)
-  - tot_pages (int)
-- Return value: split_incidents (list of strings)
+### censor_with_regex
+<p align="justify"> This function is designed to identify and redact specific types of sensitive information from a given text using regular expressions. In this context, it specifically targets and censors named entities that are recognized as persons. The function employs a regular expression pattern to find potential person names within the text and then uses the SpaCy NLP library to confirm these entities before redacting them. The redaction process involves replacing each identified entity with a series of black blocks (█) of equal length to the censored entity, thus masking the original text while maintaining its structure. </p>
 
-### split_all_incidents
-This function is designed to process a block of text (page_text) and extract individual incidents from it
-- Function arguments:
-  - page_text: entire page content (list)
-- Return value: incidents of particular page (list)
+Function arguments: 
+- text (string) : text that needs to be processed and censored
+- entities_to_censor (list) : a list specifying which entity types should be redacted
 
-### refactor_page_data
-This function processes a list of strings, each representing a line of text extracted from a PDF page, and transforms
-this text to get data of incident's time, number, location, nature, ORI.
-- Function arguments: page_text, (list of strings)
-- Return value: page_incidents, (list of dictionaries) with all incident arguments
+Return value:
+- censored_text (string) : censored version of the text, where name entities have been effectively masked
 
-### extract_location_and_nature
-This function is designed to parse a segment of text and separate it into two components: the location and the nature 
-of an incident. This parsing is based on certain conditions related to the content and its format.
-- Function arguments: record, which is a segment of individual record list
-- Return value: 
-  - loc_str: incident location (string)
-  - nature_str: incident nature (string)
+### recognize_entity
+<p align="justify"> This function serves as an entity recognition utility that leverages a given Natural Language Processing (NLP) model to detect and extract entities from the provided text. </p>
 
-### create_db
-This function is designed to create a new SQLite database and create a table within it for storing incident data.
-- Function arguments: db_name (string)
-- Return value: conn (database connection object)
+Function arguments: 
+- nlp_model (model object): NLP model that the function utilizes
+- text (string) : text to be processed by the NLP model
 
-### populate_db
-This function is designed to insert a collection of incident records into incidents table in the created database
-- Function arguments: db (database connection object)
-- Return value: None
+<p align="justify"> Return value (Doc or list): If SpaCy is the underlying technology, the function returns a Doc object enriched with entity annotations. For a Hugging Face model, it typically returns a list of dictionaries, each representing an identified entity with details like the entity type, text, and character indices in the input text. </p>
 
-### status
-This function is designed to query an SQLite database to group incident records by their nature, count the number of 
-occurrences of each distinct nature, and then print out the records in order by count DESC and nature ASC.
-- Function arguments: db (database connection object)
-- Return value: None
 
-## Database Development
-Execution of code checks if the database exists. If it exists, it first removes the database and then create a new
-database "norman_pd.db" within resources directory. It also creates a table "incidents" within
-the database which has the following columns - Incident Time, Incident Number, Location, Nature, Incident ORI.
-Incidents are collected and then populated into the database in one go. 
+### replace_with_black_block_by_indices
+<p align="justify"> The function is specifically used by censor_with_regex function  to censor parts of a text by replacing specified sections with a series of black blocks (█). It targets the portion of the text defined by the starting and ending indices and replaces that substring with a sequence of black blocks of equivalent length. </p>
+
+Function arguments:
+- text (string) : text to be censored
+- start (int) :  starting index of the segment within the text that needs to be redacted
+- end (int) : ending index of the segment within the text to be censored
+
+Return Value: 
+- censored_text (string) : resulting string after the specified segment has been censored
+
+### check_entity_regex
+<p align="justify"> This function is designed to identify entities in a given text based on regular expression patterns. Right now, it targets only the potential name entities within the text, applies a regular expression to find matches that correspond to specific entity types, and returns these findings along with their positions. </p>
+
+Function arguments: 
+- text (string) : text to be scanned for potential entities
+- entity (string) : specifier that determines the type of entity the function should look for
+
+Return value: 
+- output (list of tuples) : function returns a list of tuples, where each tuple corresponds to a detected entity
+
+### write_censored_file
+This function takes censored text and writes it to a specified output file. 
+
+Function arguments:
+- censored_text (string) : string containing the text after the sensitive information has been redacted
+- output_file_path (string or Path) : file path where the censored text will be saved
+
+Return value: 
+- None. Output is the creation of a new file at the specified path
+
+### output_stats
+<p align="justify">This function is designed to compile and display statistical data regarding the censorship process applied to a text file. Specifically, it summarizes the count of each entity type that was censored within the document.</p>
+
+Function arguments:
+- stats (dict) : dictionary contains the counts of each entity type that has been censored
+- stats_output (string) : parameter specifies the destination for the output statistics 
+- censored_file_path (Path or string) : path to the censored file
+
+Return value: 
+- None. outputs the statistics message either to the console (via stderr or stdout) or to a specified file
+
+### extract_arguments
+<p align="justify"> This function interprets and organizes the command-line arguments provided to the censorship script </p>
+
+Function arguments:
+- arg_parser (Namespace) : object returned by argparse after parsing the command-line arguments
+
+Return value: 
+- inp_path (string) : path to the input file or directory containing the text files to be censored
+- out_path (string): path to the output directory where the censored files will be saved
+- out_stats (string) : output destination for the statistics regarding the redaction process
+- entities_to_censor (list) : list of entity types that the script will target for censorship
+
+### arguments_parser
+<p align="justify">This function is designed to define and parse the command-line arguments </p>
+
+Function arguments:
+- None
+
+Return value: 
+- argparse.Namespace object
 
 ## Tests
-- The test use pytest fixtures to provide a fixed baseline upon which tests can reliably and repeatedly execute. Examples include mock_cwd to mock the current working directory, sample_url for providing a sample URL etc.
-- The tests use the mocker fixture to patch Python's standard modules like os and urllib to mock their behavior for the tests.
-- Several tests (test_delete_existing_db_file_exists, test_create_db_success, etc.) are designed to check the database-related functions.
-- Other tests (test_fetch_incidents_success, test_extract_incidents, etc.) are meant to verify that the code can fetch data from a URL, read PDF content, extract text, and parse it into a structured format.
-- After each action, the tests make assertions to verify that the expected results are obtained. This includes checking return values, making sure functions are called with the correct arguments, and ensuring no side effects occur in case of errors.
+### test_censoror.py:
+
+Fixtures:
+- mock_read_text: Mocks Path.read_text to simulate reading files without accessing the file system.
+- mock_glob: Mocks the glob function to return a predefined list of file paths, emulating file discovery in a directory.
+- mock_write_censored_file: Mocks the write_censored_file function to verify its invocation without actually writing files.
+- mock_censor_functions: Mocks the various censoring functions (censor_with_spacy, censor_with_hf, censor_with_regex) and output_stats to check their integration within the main workflow.
+
+Test Functions:
+- test_main_empty_input: Verifies that no action is taken when an empty input pattern is provided.
+- test_main: Checks that the main function processes files correctly using mocked paths and censoring functions, asserting proper calls to read, process, and write operations.
+- test_main_stderr_output: Ensures that the main function correctly handles and routes output when configured to print stats to stderr.
+
+### test_main.py:
+
+Fixtures:
+- Several fixtures mock the behavior of NLP models (mock_recognize_entity, mock_nlp_hugging_face, mock_spacy_doc) to provide controlled responses for entity recognition.
+
+Test Functions:
+- Functions like test_recognize_entity_spacy and test_recognize_entity_huggingface validate the entity recognition process using different NLP tools.
+- test_replace_with_black_block_by_indices checks the functionality of replacing identified sensitive text with censorship blocks.
+- Various tests (test_censor_with_spacy_correct_entities, test_censor_with_hf_entities, etc.) examine the behavior of censorship functions under different conditions, confirming that they correctly censor identified entities and leave uncensored entities untouched.
+
+### test_utils.py:
+
+Fixtures:
+- mock_arg_parser: Creates a mock argument parser object to simulate different command-line arguments scenarios.
+
+Test Functions:
+- test_output_stats_to_stderr and test_output_stats_to_stdout verify that stats are correctly output to the designated streams.
+- test_output_stats_to_file checks if stats are properly written to a file when specified.
+- Tests like test_extract_arguments_all_arg_passed and test_extract_arguments_no_arg_passed assess the argument extraction logic, ensuring it correctly interprets various combinations of command-line arguments.
+- test_parse_arguments_with_all_options and test_parse_arguments_with_minimum_required_options validate the argument parsing functionality, ensuring all necessary options are correctly captured and defaults are applied appropriately.
 
 ## Bugs and Assumptions
 - Program will treat and redact all entities as - 
@@ -154,9 +218,9 @@ Incidents are collected and then populated into the database in one go.
 - Spacy phone labels are extended by adding patterns using entity ruler. So the following phone patterns in addition to spacy's default ones can be redacted-
   - 123-456-7890
   - (123) 456-7890
-  - +1 123-456-7890
-  - 1-123-456-7890
-  - 123.456.7890
+  - +1 123-456-7890 (Pattern does not properly redact +1)
+  - 1-123-456-7890 (Pattern does not properly redact starting 1)
+  - 123.456.7890 (Pattern is not working for these formats)
   - 123 456 7890
   - 512)263-0177
 - Spacy and hugging face are giving better performance for dates and phone numbers but somewhat poor performance while redacting names and addresses because of the varying format in which they exist in the dataset.
